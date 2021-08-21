@@ -1,0 +1,800 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"crt crt-side-box-on crt-nav-on crt-nav-type2 crt-main-nav-on crt-sidebar-on crt-layers-1\">\n  <div class=\"crt-wrapper\">\n    <header id=\"crt-header\">\n      <div class=\"crt-container\">\n        <div class=\"crt-container-sm\">\n          <div class=\"crt-head-row\">\n            <!-- <div id=\"crt-head-col1\" class=\"crt-head-col text-left\">\n               <a id=\"crt-logo\" class=\"crt-logo\" href=\"\">\n                 <img src=\"assets/images/uploads/brand/logo.svg\" alt=\"certy resume\"><span>.Certy</span>\n               </a>\n             </div> -->\n            <div id=\"crt-head-col2\" class=\"crt-head-col text-right\">\n              <div class=\"crt-nav-container crt-container hidden-sm hidden-xs\">\n                <nav id=\"crt-main-nav\">\n                  <ul class=\"clear-list\">\n                    <li><a href=\"\">Home</a></li>\n                    <li><a href=\"https://rocky-sam.github.io/react-web-cv/\" >React CV Card</a>\n<li><a href=\"#\" (click)=\"showblogItem();\">What I'm Learning</a>\n                    <!-- <li><a href=\"portfolio.html\">Blog</a>\n                     <li><a href=\"contact.html\">Contact</a></li> -->\n                  </ul>\n                </nav>\n              </div>\n            </div>\n            <div id=\"crt-head-col3\" class=\"crt-head-col text-right\">\n            </div>\n          </div>\n        </div>\n        <!-- .crt-head-inner -->\n      </div>\n      <nav id=\"crt-nav-sm\" class=\"crt-nav hidden-lg hidden-md\" style=\"overflow: hidden;\">\n        <br>\n        <br>\n        <ul class=\"clear-list\" style=\"position: fixed;width: 100%;z-index:10;top: 1px;\">\n          <li>\n            <a href=\"#about\" titlep=\"About Me\" (click)=\"showorigin();\"><span class=\"crt-icon crt-icon-user-secret\"></span></a>\n          </li>\n          <li>\n            <a href=\"#experience\" title=\"Experience\" (click)=\"showorigin();\"><span class=\"crt-icon crt-icon-experience\"></span></a>\n          </li>\n          <li>\n            <a href=\"#education\" title=\"Education\" (click)=\"showorigin();\"><span class=\"crt-icon crt-icon-book\"></span></a>\n          </li>\n          <!-- <li>\n             <a href=\"#references\" data-tooltip=\"References\"><span class=\"crt-icon crt-icon-references\"></span></a>\n           </li>\n           <li>\n             <a href=\"#contact\" data-tooltip=\"Contact\"><span class=\"crt-icon crt-icon-contact\"></span></a>\n           </li>-->\n          <li>\n            <a href=\"#blog\" title=\"What I'm Learning\"><span class=\"crt-icon crt-icon-references\"></span></a>\n          </li>\n        </ul>\n      </nav>\n      <!-- #crt-nav-sm -->\n    </header>\n    <!-- #crt-header -->\n    <div id=\"crt-container\" class=\"crt-container\">\n      <div id=\"crt-side-box-wrap\" class=\"crt-sticky\" >\n        <div id=\"crt-side-box\" >\n          <div class=\"crt-side-box-item\" style=\"border-radius: 20px;overflow: hidden;\">\n            <div class=\"crt-card bg-primary text-center\" >\n              <div class=\"crt-card-avatar\">\n                <img style=\"border-radius:30%\" src=\"assets/images/uploads/avatar/propic2.jpg\" width=\"290\" height=\"290\"\n                  alt=\"\">\n              </div>\n              <div class=\"crt-card-info\">\n                <h2 class=\"text-upper\" id=\"shuffleLetters\">Sameera Madushanka Abeysekara</h2>\n                <ngx-typed-js [strings]=\"['a Software Engineer.', 'a Fast Learner.','a Team Player.','a Music Lover.','a Traveller.']\" [typeSpeed]=\"100\" [loop]=\"true\">\n                  I'm <span class=\"typing\" style=\"font-size: 18px;\"></span>\n                </ngx-typed-js>\n                <br>\n                PHP Framework / Laravel / CodeIgniter<br>\n                Anuglar / Ionic /\n                React / React Native \n                .Net / .Net Core /\n                Oracle DB / MySQL / MS SQL / Firebase / GIT \n                <ul class=\"crt-social clear-list\">\n                  <li><a href=\"https://github.com/ROCKY-SAM\"><span class=\"crt-icon crt-icon-github\"\n                        style=\"font-size: 26px;\"></span></a></li>\n                  <li><a href=\"https://lk.linkedin.com/in/sameera-abeysekara-453b6a76\"><span\n                        class=\"crt-icon crt-icon-linkedin\" style=\"font-size: 26px;\"></span></a></li>\n                  <li><a href=\"https://www.youtube.com/channel/UC0s1ANa4QpwcdxPh8CcBrIw\"><span\n                        class=\"crt-icon crt-icon-youtube\" style=\"font-size: 26px;\"></span></a></li>\n                </ul>\n              </div>\n            </div>\n            <!-- <div class=\"crt-side-box-btn\">\n               <a class=\"btn btn-default btn-lg btn-block btn-thin btn-upper\" href=\"#\">Download Resume</a>\n             </div> -->\n          </div>\n          <!-- .crt-side-box-item -->\n        </div>\n        <!-- #crt-side-box -->\n      </div>\n      <!-- #crt-side-box-wrap -->\n      <div id=\"crt-nav-wrap\" class=\"hidden-sm hidden-xs\">\n        <div id=\"crt-nav-inner\">\n          <div class=\"crt-nav-cont\">\n            <div id=\"crt-nav-scroll\">\n              <nav id=\"crt-nav\" class=\"crt-nav\">\n                <ul class=\"clear-list\">\n                  <li>\n                    <a href=\"#about\" title=\"About Me\" (click)=\"showorigin();\"><span class=\"crt-icon crt-icon-user-secret\"></span></a>\n                  </li>\n                  <li>\n                    <a href=\"#experience\" title=\"Experience\" (click)=\"showorigin();\"><span class=\"crt-icon crt-icon-experience\"></span></a>\n                  </li>\n                  <li>\n                    <a href=\"#education\" title=\"Education\" (click)=\"showorigin();\"><span class=\"crt-icon crt-icon-book\"></span></a>\n                  </li>\n                  <li>\n                    <a href=\"#blog\" title=\"What I'm Learning\"><span class=\"crt-icon crt-icon-references\"></span></a>\n                  </li>\n                  <!-- <li>\n                     <a href=\"#references\" data-tooltip=\"References\"><span\n                         class=\"crt-icon crt-icon-references\"></span></a>\n                   </li>\n                   <li>\n                     <a href=\"#contact\" data-tooltip=\"Contact\"><span class=\"crt-icon crt-icon-contact\"></span></a>\n                   </li>\n                   <li>\n                     <a href=\"category.html\" data-tooltip=\"Blog\"><span class=\"crt-icon crt-icon-blog\"></span></a>\n                   </li> -->\n                </ul>\n              </nav>\n            </div>\n            <div id=\"crt-nav-tools\" class=\"hidden\">\n              <span class=\"crt-icon crt-icon-dots-three-horizontal\"></span>\n              <button id=\"crt-nav-arrow\" class=\"clear-btn\">\n                <span class=\"crt-icon crt-icon-chevron-thin-down\"></span>\n              </button>\n            </div>\n          </div>\n          <div class=\"crt-nav-btm\"></div>\n        </div>\n      </div>\n      <!-- .crt-nav-wrap -->\n      <div class=\"crt-container-sm\" >\n        <div id=\"about\" class=\"crt-paper-layers crt-animate\" [hidden]=\"showblog\" >\n          <div class=\"crt-paper clearfix\" style=\"border-radius: 20px;\">\n            <div class=\"crt-paper-cont paper-padd clear-mrg\">\n              <section class=\"section brd-btm padd-box\">\n                <div class=\"row\">\n                  <div class=\"col-sm-12\">\n                    <h2 class=\"title-lg text-upper\">Hey, I’m Sam</h2>\n                    <div class=\"text-box\">\n                      <p><b>I’m living the dream.</b> </p>\n                      <ngx-typed-js [strings]=\"[mythought]\" [typeSpeed]=\"10\">\n                        <p class=\"typing\"></p>\n                      </ngx-typed-js>\n                    </div>\n                  </div>\n                </div>\n                <!-- .row -->\n              </section>\n              <!-- .section -->\n              <section class=\"section padd-box\" style=\"font-size: 18px !important;\">\n                <div class=\"row\">\n                  <div class=\"col-md-12 clear-mrg\">\n                    <h2 class=\"title-thin text-muted\">Personal Information</h2>\n                    <dl class=\"dl-horizontal clear-mrg\">\n                      <dt class=\"text-upper\">Full Name</dt>\n                      <dd>Sameera Madushanka Abeysekara</dd>\n                      <dt class=\"text-upper\">Age</dt>\n                      <dd>{{dobage}}</dd>\n                      <dt class=\"text-upper\">address</dt>\n                      <dd>{{address}}</dd>\n                      <dt class=\"text-upper\">e-mail</dt>\n                      <dd><a href=\"mailto:abeysekaramadushanka14@gmail.com\">abeysekaramadushanka14@gmail.com</a></dd>\n                    </dl>\n                  </div>\n                  <!-- .col-sm-6 -->\n                </div>\n                <!-- .row -->\n              </section>\n              <!-- .section -->\n            </div>\n            <!-- .crt-paper-cont -->\n          </div>\n          <!-- .crt-paper -->\n        </div>\n        <!-- .crt-paper-layers -->\n        <div id=\"experience\" class=\"crt-paper-layers crt-animate\" [hidden]=\"showblog\">\n          <div class=\"crt-paper clearfix\" style=\"border-radius: 20px;\">\n            <div class=\"crt-paper-cont paper-padd clear-mrg\">\n              <section class=\"section padd-box\">\n                <h2 class=\"title-lg text-upper\">work experience</h2>\n                <div class=\"education\">\n                  <div class=\"education-box\" *ngFor=\"let item of myworkexpreice\">\n                    <time class=\"education-date\" datetime=\"item.datetimeto\">\n                      <span style=\"font-weight: 600;\">{{item.tag}}</span>\n                    </time>\n                    <h3>{{item.position}}</h3>\n                    <div class=\"education-logo\" >\n                      <img src=\"{{item.image}}\" alt=\"\" width=\"120\" height=\"120\" style=\"border-radius: 10px;overflow: hidden;\">\n                    </div>\n                    <span class=\"education-company\">{{item.company}}</span>\n                    <p [innerHTML]=\"item.description\">\n                    </p>\n                  </div>\n                  <!-- .education-box -->\n                </div>\n                <!-- .education -->\n              </section>\n              <!-- .section -->\n            </div>\n            <!-- .crt-paper-cont -->\n          </div>\n          <!-- .crt-paper -->\n        </div>\n        <!-- .crt-paper-layers -->\n        <div id=\"education\" class=\"crt-paper-layers crt-animate\" [hidden]=\"showblog\">\n          <div class=\"crt-paper clearfix\" style=\"border-radius: 20px;\">\n            <div class=\"crt-paper-cont paper-padd clear-mrg\">\n              <section class=\"section padd-box\">\n                <h2 class=\"title-lg text-upper\">Education</h2>\n                <div class=\"padd-box-sm clear-mrg\">\n                  <div class=\"ref-box brd-btm hreview\" *ngFor=\"let item of myEducation\">\n                    <div class=\"ref-avatar\">\n                      <img alt=\"\" src=\"{{item.image}}\" class=\"avatar-54 photo\" height=\"54\" width=\"54\">\n                    </div>\n                    <div class=\"ref-info\">\n                      <blockquote class=\"ref-cont clear-mrg\">\n                        <p [innerHTML]=\"item.tag\">\n                        </p>\n                      </blockquote>\n                    </div>\n                  </div>\n                </div>\n              </section>\n            </div>\n          </div>\n        </div>\n        <!-- .crt-paper-layers -->\n        <!-- .crt-paper-layers -->\n        <div id=\"blog\" class=\"crt-paper-layers crt-animate\" [hidden]=\"showblog\">\n          <div class=\"crt-paper clearfix\" style=\"border-radius: 20px;\">\n            <div class=\"crt-paper-cont paper-padd clear-mrg\">\n              <section class=\"section padd-box\">\n                <h2 class=\"title-lg text-upper\">What I'm Learning</h2>\n                <div class=\"padd-box-sm clear-mrg\">\n                  <ul class=\"togglebox\">\n                    <li *ngFor=\"let item of (myBlog | slice:myBlog.length - 3)\">\n                      <h3 class=\"togglebox-header\" (click)=\"showblogfun(item);\">{{item.date}} - {{item.header}} </h3>\n                    </li>\n                  </ul>\n                </div>\n              </section>\n            </div>\n          </div>\n        </div>\n\n        <!-- .crt-paper-layers -->\n        <div  class=\"crt-paper-layers crt-animate\" [hidden]=\"!showblog\">\n          <div class=\"crt-paper clearfix\" style=\"border-radius: 20px;\">\n            <div class=\"crt-paper-cont paper-padd clear-mrg\">\n              <section class=\"section padd-box\">\n                <h2 class=\"title-lg text-upper\">What I'm Learning</h2>\n                <div class=\"padd-box-sm clear-mrg\">\n                  <h2>{{blogHeader}}</h2>\n                  \n                  <div class=\"ref-info \">\n                    <blockquote class=\"ref-cont clear-mrg\">\n                      \n                      <iframe  *ngIf=\"order == '4'\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Gf2fu1_QMIA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                      \n                      <div [innerHTML]=\"blogbody\" style=\"font-size: 16px;\">\n                      </div>\n                    </blockquote>\n                  </div>\n                  <h6 style=\"float: right !important;\">{{blogDate}}</h6>\n                </div>\n              </section>\n            </div>\n          </div>\n        </div>\n\n        <div  class=\"crt-paper-layers crt-animate\" [hidden]=\"!showblog\">\n          <div class=\"crt-paper clearfix\" style=\"border-radius: 20px;\">\n            <div class=\"crt-paper-cont paper-padd clear-mrg\">\n              <section class=\"section padd-box\">\n                <h2 class=\"title-lg text-upper\">More</h2>\n                <div class=\"padd-box-sm clear-mrg\">\n                  <ul class=\"togglebox\">\n                    <li *ngFor=\"let item of myBlog\">\n                      <h3 class=\"togglebox-header\" (click)=\"whatiknow(item);\">{{item.date}} - {{item.header}} </h3>\n                    </li>\n                  </ul>\n                </div>\n              </section>\n            </div>\n          </div>\n        </div>\n        <!-- .crt-paper-layers -->\n\n      </div>\n      <!-- .crt-container-sm -->\n    </div>\n\n    <!-- .crt-container -->\n    <footer id=\"crt-footer\" class=\"crt-container-lg\">\n      <div class=\"crt-container\">\n        <div class=\"crt-container-sm clear-mrg text-center\">\n          <p>Sameera Madushanka Abeysekara @ All Rights Reserved {{currentyear}}</p>\n        </div>\n      </div>\n      <!-- .crt-container -->\n    </footer>\n    <!-- #crt-footer -->\n  </div>");
+
+/***/ }),
+
+/***/ "./node_modules/tslib/tslib.es6.js":
+/*!*****************************************!*\
+  !*** ./node_modules/tslib/tslib.es6.js ***!
+  \*****************************************/
+/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__extends", function() { return __extends; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__assign", function() { return __assign; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__rest", function() { return __rest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__decorate", function() { return __decorate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__param", function() { return __param; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__metadata", function() { return __metadata; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__awaiter", function() { return __awaiter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__generator", function() { return __generator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__exportStar", function() { return __exportStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__values", function() { return __values; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__read", function() { return __read; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spread", function() { return __spread; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spreadArrays", function() { return __spreadArrays; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__await", function() { return __await; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncGenerator", function() { return __asyncGenerator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncDelegator", function() { return __asyncDelegator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncValues", function() { return __asyncValues; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__makeTemplateObject", function() { return __makeTemplateObject; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importStar", function() { return __importStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importDefault", function() { return __importDefault; });
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+/* global Reflect, Promise */
+
+var extendStatics = function(d, b) {
+    extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return extendStatics(d, b);
+};
+
+function __extends(d, b) {
+    extendStatics(d, b);
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+}
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    }
+    return __assign.apply(this, arguments);
+}
+
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+}
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+
+function __param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+}
+
+function __metadata(metadataKey, metadataValue) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+}
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+function __generator(thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+}
+
+function __exportStar(m, exports) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+
+function __values(o) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
+    if (m) return m.call(o);
+    return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+}
+
+function __read(o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+}
+
+function __spread() {
+    for (var ar = [], i = 0; i < arguments.length; i++)
+        ar = ar.concat(__read(arguments[i]));
+    return ar;
+}
+
+function __spreadArrays() {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+
+function __await(v) {
+    return this instanceof __await ? (this.v = v, this) : new __await(v);
+}
+
+function __asyncGenerator(thisArg, _arguments, generator) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var g = generator.apply(thisArg, _arguments || []), i, q = [];
+    return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+    function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+    function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function fulfill(value) { resume("next", value); }
+    function reject(value) { resume("throw", value); }
+    function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+}
+
+function __asyncDelegator(o) {
+    var i, p;
+    return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
+    function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; } : f; }
+}
+
+function __asyncValues(o) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var m = o[Symbol.asyncIterator], i;
+    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
+    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
+    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+}
+
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+
+function __importStar(mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result.default = mod;
+    return result;
+}
+
+function __importDefault(mod) {
+    return (mod && mod.__esModule) ? mod : { default: mod };
+}
+
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+const routes = [];
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })
+], AppRoutingModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/data.json */ "./src/app/assets/data.json");
+var _assets_data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./assets/data.json */ "./src/app/assets/data.json", 1);
+
+
+
+
+let AppComponent = class AppComponent {
+    constructor() {
+        this.showblog = false;
+        this.currentyear = moment__WEBPACK_IMPORTED_MODULE_2__(new Date()).format('YYYY');
+        this.dobage = parseInt(moment__WEBPACK_IMPORTED_MODULE_2__(new Date()).format('YYYY')) - 1993;
+        this.address = "Boralesgamuwa, Sri Lanka";
+        this.mythought = ` I’ve always been a great problem solver, and a technophile obsessed with the latest devices.
+  Today, I’m working from home as a software engineer for <b>BoardPAC (Pvt) Ltd</b>, and I am getting into <b>Amazon Web Services</b> on my own time.
+  <br></br>
+  Familiar with a variety of programming languages, including JavaScript, Python and React, but I’m always adding new skills to my repertoire. I’m also eager to meet other software engineers in the area, so feel free to connect!`;
+        this.title = 'my-cv';
+        this.myworkexpreice = _assets_data_json__WEBPACK_IMPORTED_MODULE_3__["myworkexpreice"];
+        this.myEducation = _assets_data_json__WEBPACK_IMPORTED_MODULE_3__["myEducation"];
+        this.myBlog = _assets_data_json__WEBPACK_IMPORTED_MODULE_3__["myBlog"];
+        this.blogHeader = "";
+        this.order = "";
+    }
+    showorigin() {
+        this.showblog = false;
+    }
+    showblogItem() {
+        this.blogHeader = this.myBlog[0].header;
+        this.blogbody = this.myBlog[0].body;
+        this.blogDate = this.myBlog[0].date;
+        this.blogDate = this.myBlog[0].order;
+        this.showblog = !this.showblog;
+        window.scrollTo(0, 0);
+    }
+    showblogfun(item) {
+        this.blogHeader = item.header;
+        this.blogbody = item.body;
+        this.blogDate = item.date;
+        this.order = item.order;
+        this.showblog = !this.showblog;
+        window.scrollTo(0, 0);
+    }
+    whatiknow(item) {
+        this.blogHeader = item.header;
+        this.blogbody = item.body;
+        this.blogDate = item.date;
+        this.order = item.order;
+        window.scrollTo(0, 0);
+    }
+    ngOnInit() {
+    }
+};
+AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
+    })
+], AppComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var ngx_typed_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-typed-js */ "./node_modules/ngx-typed-js/fesm2015/ngx-typed-js.js");
+
+
+
+
+
+
+let AppModule = class AppModule {
+};
+AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]
+        ],
+        imports: [
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            ngx_typed_js__WEBPACK_IMPORTED_MODULE_5__["NgxTypedJsModule"]
+        ],
+        providers: [],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/assets/data.json":
+/*!**********************************!*\
+  !*** ./src/app/assets/data.json ***!
+  \**********************************/
+/*! exports provided: myworkexpreice, myEducation, myBlog, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"myworkexpreice\":[{\"datetimeto\":\"2018-11T2019-11\",\"tag\":\"Nov 2018 - Present\",\"position\":\"Software Engineer\",\"image\":\"assets/hnbassurance.png\",\"company\":\"HNB Assurance PLC\",\"description\":\"<b>&#8226; ORACLE EBS</b> - <br> &nbsp;&nbsp;Laravel, SOAP, RabbitMQ and Oracle DB <b> <br> &#8226; Customer Survey </b> - <br> &nbsp;&nbsp;Ionic, Laravel and MySQL  <br><b>&#8226; Integrate Amex and CyberSource to HNB Pay online </b>  <br><b>&#8226; Commission Dashboard</b> - <br> &nbsp;&nbsp; Angular <br> <b>&#8226; Excel To Database</b> - <br> &nbsp;&nbsp; PHP and oracle DB   <br> <b>&#8226; Quotation System , ONE UI System</b> - <br> &nbsp;&nbsp; .Net Core using dapper, Oracle DB, Angular 6 <br> <b>&#8226; Trainers’ Travelling System</b> - <br> &nbsp;&nbsp;.NET (web form), jQuery, Oracle DB, SQL Server Reporting Services (SSRS) <br> <b>&#8226; Sales Force System</b> - <br> &nbsp;&nbsp;Laravel and Oracle DB\"},{\"datetimeto\":\"2017-07T2018-11\",\"tag\":\"Jul 2017 - Nov 2018\",\"position\":\"Associate Software Engineer\",\"image\":\"assets/lankacom.png\",\"company\":\"Lanka Communication Services (Pvt) Ltd\",\"description\":\"<b>&#8226; Payroll System</b> <br> &nbsp;&nbsp; Developed 2 New versions of Payroll System. <br> &nbsp;&nbsp; Deployed Payroll System to 6 New Companies.<br> &nbsp;&nbsp; Client support and Requirement Gathering. <br> <b>&#8226; Involved in developing E-swabhimani Voting System and Public Wi-Fi System Logger.</b>\"}],\"myEducation\":[{\"image\":\"assets/sliit.png\",\"tag\":\"B.Sc. Special (Hons) – Information Technology (Specialization – Information Technology) Sri Lanka Institute of Information Technology GPA <b>3.06</b> Second Class (Lower Division) (January 2014 - March 2018).<br><br><b>Selected to Deans' List  4th year 2nd semester</b>\"},{\"image\":\"assets/cima.png\",\"tag\":\"Completed 3 subjects in CIMA Foundation Level - 2013.\"},{\"image\":\"assets/Isipathana.jpg\",\"tag\":\"G.C.E Advanced Level in Isipathana College - Aug 2012 <br> &nbsp;&nbsp; • Accounting <b>( A )</b> <br> &nbsp;&nbsp; • Business Studies  <b>( B )</b> <br> &nbsp;&nbsp;&nbsp;• Econ    <b>( B )</b>\"}],\"myBlog\":[{\"order\":\"2\",\"date\":\"2020/02/20\",\"header\":\"How to Install ReactJS In Windows\",\"body\":\"<p>Install NodeJS and NPM:</p><p>Go to <a href='https://nodejs.org/en/'>https://nodejs.org/en/</a><br>Download latest version of NodeJS LTS with Administrator privileges.</p><p>To Check NodeJS version:</p><pre><div  up-data='{&quot;text&quot;:&quot;node --version\\n&quot;        }'></div><code >node --version</code></pre><p>To Check npm version:</p><pre><div  up-data='{&quot;text&quot;:&quot;npm --version\\n&quot;        }'></div><code >npm --version</code></pre><p>Install React from terminal:</p><pre><div  up-data='{&quot;text&quot;:&quot;npm install -g create-react-app\\n&quot;        }'></div><code >npm install -g create-react-app</code></pre><p>If successful, you should be able to get version:</p><pre><div  up-data='{&quot;text&quot;:&quot;create-react-app --version\\n&quot;        }'></div><code >create-react-app --version</code></pre><p>Create react project:</p><pre><div  up-data='{&quot;text&quot;:&quot;create-react-app <projectname>\\n&quot;        }'></div><code >create-react-app &lt;projectname&gt;</code></pre><p>Run project:</p><pre><div  up-data='{&quot;text&quot;:&quot;cd <projectname>\\nnpm start\\n&quot;         }'></div><code >cd &lt;projectname&gt;npm start </code></pre><p>Output:</p> <pre style=overflow:auto'><div  up-data='{&quot;text&quot;:&quot;<br>Local:  http: //localhost:3000/\\n&quot;}'></div><code >Open In the browser. Local: <a href='http://localhost:3000'>http://localhost:3000/</a></code></pre>\"},{\"order\":\"3\",\"date\":\"2020/04/20\",\"header\":\"Introduction to Containers\",\"body\":\"<p>This is an introductory course teach the history and concepts behind containerization, provide an introduction to specific technologies used within the container ecosystem and discuss the importance of containers in microservice architectures.</p><img alt='' src='assets/AWS_Training_Certification_Certificate_of_Completion.png' class='' width='100%'>\"},{\"order\":\"4\",\"date\":\"2020/02/23\",\"header\":\"Covid-19 React Native App\",\"body\":\"This is my first React Native application built by myself using  <a target='_blank'  href='https://corona.lmao.ninja/docs/'>NOVELCovid</a> API to fetch data and this appication is responsive and supports android and IOS. <br><br> <b>Iphone View</b><br> <br><img src='assets/corova_api_apple_view_1.jpeg'  width='45%'>&nbsp;<img src='assets/corova_api_apple_view_4.jpeg'  width='45%'><br><br><img src='assets/corova_api_apple_view_3.jpeg'  width='45%'>&nbsp;<img src='assets/corova_api_apple_view_2.jpeg'  width='45%'>  <br><br> <b>Android View</b><br> <br><img src='assets/corona_api_android_6.jpg'  width='45%'>&nbsp;<img src='assets/corona_api_android_1.jpg'  width='45%'><br> <br><img src='assets/corona_api_android_2.jpg'  width='45%'>&nbsp;<img src='assets/corona_api_android_3.jpg'  width='45%'><br> <br><img src='assets/corona_api_android_4.jpg'  width='45%'>&nbsp;<img src='assets/corona_api_android_5.jpg'  width='45%'>\"}]}");
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_3__["AppModule"])
+    .catch(err => console.error(err));
+
+
+/***/ }),
+
+/***/ 0:
+/*!***************************!*\
+  !*** multi ./src/main.ts ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /Users/sameeraabeysekara/Desktop/workplace/my-cv/src/main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main-es2015.js.map
